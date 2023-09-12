@@ -11,6 +11,10 @@ def multiply(numbers):
         result = result * x
     return result
 
+def reverse(numbers):
+    new_numbers = numbers[::-1]
+    return new_numbers
+
 def main():
     
     
@@ -21,4 +25,7 @@ def main():
     print(sum(n))
     
     print(multiply(n))
+    
+    print(reverse(n))
+    
 main()
