@@ -25,7 +25,6 @@ def main():
     print(sum(n))
     
     print(multiply(n))
-    
     print(reverse(n))
     
 main()
